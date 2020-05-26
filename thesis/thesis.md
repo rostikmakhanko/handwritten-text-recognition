@@ -6,7 +6,7 @@ I'm gonna write my thesis.
 
 
 # Introduction
-First of all let's look at a problem of handwritten text recognition without any particular connections to technologies. In ancient times people used to paint animals or nature signs on the walls of caves to save notifications to other people. Then they realized that a better idea is to use some determined list of symbols. ...
+First of all let's look at a problem of handwritten text recognition without any particular connections to technologies. In ancient times people used to paint animals or nature signs on the walls of caves to save notifications to other people. Then they realized that a better idea is to use some determined list of symbols. ... 
 
 # Thesis roadmap
 
@@ -84,5 +84,5 @@ There are two important issues. First is to **randomize dataset** before splitti
 
 11. *Bonus*: Recognition of **Ukrainian alphabet letters**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Nzg4MzU4N119
+eyJoaXN0b3J5IjpbMTI5MTExODExMSwxMDk3ODgzNTg3XX0=
 -->
