@@ -50,6 +50,16 @@ Let's start with the task easier than a recognition of a large handwritten text 
 * **Example** is a particular instance of data, `x`. Important that `x` isn't necessarily single value, so talking about `x` we mean multi-dimension vector. In our case `x` is a photo, that could be represented as a matrix of pixels. An example could be labeled or unlabeled. Labeled example includes both feature(s) and the label: `{x, y} = {file('letter_r.jpg'), 'r'}`
 * **Model** defines the relationship between feature and label. It finds the correct label for the input photo. The process of **training** means learning the model of this relationship by labeled examples. **Inference** is process of applying model to unlabeled data.
 * For the example we need to train **classification model** because the task is to answer which letter from the set `['a', 'b',..., 'z']` is on a photo, classify input photo.
+
+# Training and test sets
+After searching dataset it's important to split it into two:
+
+* **Training set** is subset to train a model,
+* **Test set** is subset to evaluate success of trained model.
+
+Test set might possibly be 10 times smaller than Training set, but we need to make sure that overall dataset is large enough.
+
+There are two important issues. First is to **randomize dataset** before splitting it into training and test sets. And, second is to **never train a model on test set**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMzg1NDU3XX0=
+eyJoaXN0b3J5IjpbNjkyMzQ3NDA4LDQxMzM4NTQ1N119
 -->
