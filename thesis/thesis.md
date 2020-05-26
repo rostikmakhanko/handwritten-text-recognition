@@ -49,8 +49,7 @@ Lets start with the task easier than recognition of a large handwriten text - re
 * **Label** `y` is a thing that we are predicting, it could be one of values `['a', 'b',..., 'z']`.
 * **Example** is a particular instance of data, `x`. Important that `x` isn't necessarily single value, so talking about `x` we mean multi-dimension vector. In our case `x` is photo, that could be represented as a matrix of pixels. Example could be labeled or unlabeled. Labeled example includes both feature(s) and the label: `{x, y} = {file('letter_r.jpg'), 'r'}`
 * **Model** defines relationship between feature and label. It finds correct label for input photo. The proccess of **training** means learining the model this relationship by labeled examples. **Inference** is proccess of applying model to unlabeled data.
-
->* For the example we need to train **classification model** because the task is to answer which letter from set `['a', 'b',..., 'z']` is on a photo, classify input photo.
+* For the example we need to train **classification model** because the task is to answer which letter from set `['a', 'b',..., 'z']` is on a photo, classify input photo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTE2ODE1LC0yMTAwNzA3OTY4XX0=
+eyJoaXN0b3J5IjpbLTUyMDYyMTgzNywtMjEwMDcwNzk2OF19
 -->
