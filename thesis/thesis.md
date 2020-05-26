@@ -84,5 +84,5 @@ There are two important issues. First is to **randomize dataset** before splitti
 
 11. *Bonus*: Recognition of **Ukrainian alphabet letters**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Nzg4MzU4Nyw0MTMzODU0NTddfQ==
+eyJoaXN0b3J5IjpbMTA5Nzg4MzU4N119
 -->
