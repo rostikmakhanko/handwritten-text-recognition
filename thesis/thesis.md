@@ -5,110 +5,108 @@
 
 <h1 id="welcome-to-stackedit">Welcome to StackEdit!</h1>
 <p>Hi! I’m your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the <strong>file explorer</strong> on the left corner of the navigation bar.</p>
-<h1 id="files">Files</h1>
-<p>StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible <strong>offline!</strong></p>
-<h2 id="create-files-and-folders">Create files and folders</h2>
-<p>The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the <strong>New file</strong> button in the file explorer. You can also create folders by clicking the <strong>New folder</strong> button.</p>
-<h2 id="switch-to-another-file">Switch to another file</h2>
-<p>All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.</p>
-<h2 id="rename-a-file">Rename a file</h2>
-<p>You can rename the current file by clicking the file name in the navigation bar or by clicking the <strong>Rename</strong> button in the file explorer.</p>
-<h2 id="delete-a-file">Delete a file</h2>
-<p>You can delete the current file by clicking the <strong>Remove</strong> button in the file explorer. The file will be moved into the <strong>Trash</strong> folder and automatically deleted after 7 days of inactivity.</p>
-<h2 id="export-a-file">Export a file</h2>
-<p>You can export the current file by clicking <strong>Export to disk</strong> in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.</p>
-<h1 id="synchronization">Synchronization</h1>
-<p>Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your <strong>Google Drive</strong>, your <strong>Dropbox</strong> and your <strong>GitHub</strong> accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow… The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.</p>
-<p>There are two types of synchronization and they can complement each other:</p>
-<ul>
+<p>I’m gonna write my thesis.</p>
+<h1 id="introduction">Introduction</h1>
+<p>First of all let’s look at a problem of handwritten text recognition without any particular connections to technologies. In ancient times people used to paint animals or nature signs on the walls of caves to save notifications to other people. Then they realized that a better idea is to use some determined list of symbols. …</p>
+<h1 id="thesis-roadmap">Thesis roadmap</h1>
+<p><em>Based on <a href="https://medium.com/swlh/12-steps-to-applied-ai-2fdad7fdcdf3">Cassie Kozyrkov’s 12 Steps to Applied AI</a></em></p>
+<p><img src="https://miro.medium.com/max/1400/1*DWpwjk-yqNliqQlkqBKfUw.jpeg" alt="alt text"></p>
+<ol start="0">
 <li>
-<p>The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.</p>
-<blockquote>
-<p>To start syncing your workspace, just sign in with Google in the menu.</p>
-</blockquote>
+<p>Reality check(is this problem exists, needs, and could to be solved).</p>
 </li>
 <li>
-<p>The file synchronization will keep one file of the workspace synced with one or multiple files in <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong>.</p>
-<blockquote>
-<p>Before starting to sync files, you must link an account in the <strong>Synchronize</strong> sub-menu.</p>
-</blockquote>
+<p>Define what is success for my project.</p>
 </li>
-</ul>
-<h2 id="open-a-file">Open a file</h2>
-<p>You can open a file from <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Open from</strong>. Once opened in the workspace, any modification in the file will be automatically synced.</p>
-<h2 id="save-a-file">Save a file</h2>
-<p>You can save any file of the workspace to <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Save on</strong>. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.</p>
-<h2 id="synchronize-a-file">Synchronize a file</h2>
-<p>Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.</p>
-<p>If you just have modified your file and you want to force syncing, click the <strong>Synchronize now</strong> button in the navigation bar.</p>
-<blockquote>
-<p><strong>Note:</strong> The <strong>Synchronize now</strong> button is disabled if you have no file to synchronize.</p>
-</blockquote>
-<h2 id="manage-file-synchronization">Manage file synchronization</h2>
-<p>Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking <strong>File synchronization</strong> in the <strong>Synchronize</strong> sub-menu. This allows you to list and remove synchronized locations that are linked to your file.</p>
-<h1 id="publication">Publication</h1>
-<p>Publishing in StackEdit makes it simple for you to publish online your files. Once you’re happy with a file, you can publish it to different hosting platforms like <strong>Blogger</strong>, <strong>Dropbox</strong>, <strong>Gist</strong>, <strong>GitHub</strong>, <strong>Google Drive</strong>, <strong>WordPress</strong> and <strong>Zendesk</strong>. With <a href="http://handlebarsjs.com/">Handlebars templates</a>, you have full control over what you export.</p>
-<blockquote>
-<p>Before starting to publish, you must link an account in the <strong>Publish</strong> sub-menu.</p>
-</blockquote>
-<h2 id="publish-a-file">Publish a File</h2>
-<p>You can publish your file by opening the <strong>Publish</strong> sub-menu and by clicking <strong>Publish to</strong>. For some locations, you can choose between the following formats:</p>
+<li>
+<p>Get data. Research for exists data sets. Decide how it could be improved.</p>
+</li>
+<li>
+<p>Split data into three datasets: training, validation, and test.</p>
+</li>
+<li>
+<p>Analyze part of the data with some plots. Make changes based on the analysis. Choose algorithms and models.</p>
+</li>
+<li>
+<p>Prepare machine learning tools. Transform data into an appropriate format.</p>
+</li>
+<li>
+<p>Use tools to train models.</p>
+</li>
+<li>
+<p>Debug, analyze, and tune prepared data and models. Try to find what’s going wrong.</p>
+</li>
+<li>
+<p>Validate models(does it works for the data).</p>
+</li>
+<li>
+<p>Test the model. The moment where <a href="https://towardsdatascience.com/statistics-for-people-in-a-hurry-a9613c0ed0b">statistics</a> comes.</p>
+</li>
+<li>
+<p>Build a system(UI or API) and integrate models in it.</p>
+</li>
+<li>
+<p>Test what was built so far. Launch on servers or build setups.</p>
+</li>
+<li>
+<p>Give to users(relatives, friends, teachers).</p>
+</li>
+</ol>
+<h1 id="key-terminology">Key terminology</h1>
+<p>In a nutshell, machine learning is the labeling of things. We get some data on input(it could be nearly anything - numbers, text, photo, sound), and our task to put a label on this data.</p>
+<p>Let’s start with the task easier than a recognition of a large handwritten text - recognition of letters(a, b,…, z). Input is a photo of one of the letters and the computer needs to provide an output, which letter is on a photo. On this example we use these terms:</p>
 <ul>
-<li>Markdown: publish the Markdown text on a website that can interpret it (<strong>GitHub</strong> for instance),</li>
-<li>HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).</li>
+<li><strong>Feature</strong> <code>x</code> is an input, photo of a handwritten letter. In larger machine learning projects could be a lot of different features that marked as <code>[x_1,x_2,...,x_n]</code>.</li>
+<li><strong>Label</strong> <code>y</code> is a thing that we are predicting, it could be one of the values <code>['a', 'b',..., 'z']</code>.</li>
+<li><strong>Example</strong> is a particular instance of data, <code>x</code>. Important that <code>x</code> isn’t necessarily single value, so talking about <code>x</code> we mean multi-dimension vector. In our case <code>x</code> is a photo, that could be represented as a matrix of pixels. An example could be labeled or unlabeled. Labeled example includes both feature(s) and the label: <code>{x, y} = {file('letter_r.jpg'), 'r'}</code></li>
+<li><strong>Model</strong> defines the relationship between feature and label. It finds the correct label for the input photo. The process of <strong>training</strong> means learning the model of this relationship by labeled examples. <strong>Inference</strong> is the process of applying the model to unlabeled data.</li>
+<li>For the example we need to train <strong>classification model</strong> because the task is to answer which letter from the set <code>['a', 'b',..., 'z']</code> is on a photo, classify input photo.</li>
 </ul>
-<h2 id="update-a-publication">Update a publication</h2>
-<p>After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the <strong>Publish now</strong> button in the navigation bar.</p>
-<blockquote>
-<p><strong>Note:</strong> The <strong>Publish now</strong> button is disabled if your file has not been published yet.</p>
-</blockquote>
-<h2 id="manage-file-publication">Manage file publication</h2>
-<p>Since one file can be published to multiple locations, you can list and manage publish locations by clicking <strong>File publication</strong> in the <strong>Publish</strong> sub-menu. This allows you to list and remove publication locations that are linked to your file.</p>
-<h1 id="markdown-extensions">Markdown extensions</h1>
-<p>StackEdit extends the standard Markdown syntax by adding extra <strong>Markdown extensions</strong>, providing you with some nice features.</p>
-<blockquote>
-<p><strong>ProTip:</strong> You can disable any <strong>Markdown extension</strong> in the <strong>File properties</strong> dialog.</p>
-</blockquote>
-<h2 id="smartypants">SmartyPants</h2>
-<p>SmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:</p>
-
-<table>
-<thead>
-<tr>
-<th></th>
-<th>ASCII</th>
-<th>HTML</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Single backticks</td>
-<td><code>'Isn't this fun?'</code></td>
-<td>‘Isn’t this fun?’</td>
-</tr>
-<tr>
-<td>Quotes</td>
-<td><code>"Isn't this fun?"</code></td>
-<td>“Isn’t this fun?”</td>
-</tr>
-<tr>
-<td>Dashes</td>
-<td><code>-- is en-dash, --- is em-dash</code></td>
-<td>– is en-dash, — is em-dash</td>
-</tr>
-</tbody>
-</table><h2 id="katex">KaTeX</h2>
-<p>You can render LaTeX mathematical expressions using <a href="https://khan.github.io/KaTeX/">KaTeX</a>:</p>
-<p>The <em>Gamma function</em> satisfying <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Γ</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mo stretchy="false">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo><mo stretchy="false">!</mo><mspace width="1em"></mspace><mi mathvariant="normal">∀</mi><mi>n</mi><mo>∈</mo><mi mathvariant="double-struck">N</mi></mrow><annotation encoding="application/x-tex">\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">Γ</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mclose">!</span><span class="mspace" style="margin-right: 1em;"></span><span class="mord">∀</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.68889em; vertical-align: 0em;"></span><span class="mord mathbb">N</span></span></span></span></span> is via the Euler integral</p>
-<p><span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Γ</mi><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup><msup><mi>t</mi><mrow><mi>z</mi><mo>−</mo><mn>1</mn></mrow></msup><msup><mi>e</mi><mrow><mo>−</mo><mi>t</mi></mrow></msup><mi>d</mi><mi>t</mi> <mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">Γ</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right: 0.04398em;">z</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.32624em; vertical-align: -0.91195em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right: 0.44445em; position: relative; top: -0.001125em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.41429em;"><span class="" style="top: -1.78805em; margin-left: -0.44445em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span><span class="" style="top: -3.8129em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.91195em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord"><span class="mord mathdefault">t</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.864108em;"><span class="" style="top: -3.113em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right: 0.04398em;">z</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.843556em;"><span class="" style="top: -3.113em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mathdefault mtight">t</span></span></span></span></span></span></span></span></span><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">.</span></span></span></span></span></span></p>
-<blockquote>
-<p>You can find more information about <strong>LaTeX</strong> mathematical expressions <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">here</a>.</p>
-</blockquote>
-<h2 id="uml-diagrams">UML diagrams</h2>
-<p>You can render UML diagrams using <a href="https://mermaidjs.github.io/">Mermaid</a>. For example, this will produce a sequence diagram:</p>
-<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-ASZLD2wxMdxNtDC9" height="100%" width="100%" style="max-width:750px;" viewBox="-50 -10 750 469"><g></g><g><line id="actor3" x1="75" y1="5" x2="75" y2="458" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">Alice</tspan></text></g><g><line id="actor4" x1="275" y1="5" x2="275" y2="458" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Bob</tspan></text></g><g><line id="actor5" x1="475" y1="5" x2="475" y2="458" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="475" dy="0">John</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello Bob, how are you?</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="375" y="128" class="messageText" style="text-anchor: middle;">How about you John?</text><line x1="275" y1="135" x2="475" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="175" y="163" class="messageText" style="text-anchor: middle;">I am good thanks!</text><line x1="275" y1="170" x2="75" y2="170" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#crosshead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="375" y="198" class="messageText" style="text-anchor: middle;">I am good thanks!</text><line x1="275" y1="205" x2="475" y2="205" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#crosshead)" style="fill: none;"></line></g><g><rect x="500" y="215" fill="#EDF2AE" stroke="#666" width="150" height="88" rx="0" ry="0" class="note"></rect><text x="496" y="239" fill="black" class="noteText"><tspan x="516" fill="black">Bob thinks a long</tspan></text><text x="496" y="256" fill="black" class="noteText"><tspan x="516" fill="black">long time, so long</tspan></text><text x="496" y="273" fill="black" class="noteText"><tspan x="516" fill="black">that the text does</tspan></text><text x="496" y="290" fill="black" class="noteText"><tspan x="516" fill="black">not fit on a row.</tspan></text></g><g><text x="175" y="331" class="messageText" style="text-anchor: middle;">Checking with John...</text><line x1="275" y1="338" x2="75" y2="338" class="messageLine1" stroke-width="2" stroke="black" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="275" y="366" class="messageText" style="text-anchor: middle;">Yes... John, how are you?</text><line x1="75" y1="373" x2="475" y2="373" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;"></line></g><g><rect x="0" y="393" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="425.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">Alice</tspan></text></g><g><rect x="200" y="393" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="425.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Bob</tspan></text></g><g><rect x="400" y="393" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="425.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="475" dy="0">John</tspan></text></g></svg></div>
-<p>And this will produce a flow chart:</p>
-<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-hAmeh5wmx9Dj9dkG" width="100%" style="max-width: 500.3109359741211px;" viewBox="0 0 500.3109359741211 171.890625"><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M119.91170576572816,78.41796875L179.3203125,49.9453125L255.2578125,49.9453125" marker-end="url(#arrowhead33)" style="fill:none"></path><defs><marker id="arrowhead33" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M119.91170576572816,124.41796875L179.3203125,152.890625L234.796875,152.890625" marker-end="url(#arrowhead34)" style="fill:none"></path><defs><marker id="arrowhead34" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M315.1484375,49.9453125L360.609375,49.9453125L408.6013871293077,79.42595738363185" marker-end="url(#arrowhead35)" style="fill:none"></path><defs><marker id="arrowhead35" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M335.609375,152.890625L360.609375,152.890625L408.6013861816871,124.4099806946266" marker-end="url(#arrowhead36)" style="fill:none"></path><defs><marker id="arrowhead36" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(179.3203125,49.9453125)" style="opacity: 1;"><g transform="translate(-30.4765625,-13)" class="label"><foreignObject width="60.953125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Link text</span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node" id="A" transform="translate(71.921875,101.41796875)" style="opacity: 1;"><rect rx="0" ry="0" x="-51.921875" y="-23" width="103.84375" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-41.921875,-13)"><foreignObject width="83.84375" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Square Rect</div></foreignObject></g></g></g><g class="node" id="B" transform="translate(285.203125,49.9453125)" style="opacity: 1;"><circle x="-29.9453125" y="-23" r="29.9453125"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-19.9453125,-13)"><foreignObject width="39.890625" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Circle</div></foreignObject></g></g></g><g class="node" id="C" transform="translate(285.203125,152.890625)" style="opacity: 1;"><rect rx="5" ry="5" x="-50.40625" y="-23" width="100.8125" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-40.40625,-13)"><foreignObject width="80.8125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Round Rect</div></foreignObject></g></g></g><g class="node" id="D" transform="translate(444.96015548706055,101.41796875)" style="opacity: 1;"><polygon points="59.350781250000004,0 118.70156250000001,-59.350781250000004 59.350781250000004,-118.70156250000001 0,-59.350781250000004" rx="5" ry="5" transform="translate(-59.350781250000004,59.350781250000004)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-32.9453125,-13)"><foreignObject width="65.890625" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Rhombus</div></foreignObject></g></g></g></g></g></g></svg></div>
+<h1 id="training-and-test-sets">Training and test sets</h1>
+<p>After searching dataset it’s important to split it into two:</p>
+<ul>
+<li><strong>Training set</strong> is a subset to train a model,</li>
+<li><strong>Test set</strong> is a subset to evaluate the success of the trained model.</li>
+</ul>
+<p>The test set might be 10 times smaller than the Training set, but we need to make sure that the overall dataset is large enough.</p>
+<p>There are two important issues. First is to <strong>randomize dataset</strong> before splitting it into training and test sets. And, second is to <strong>never train a model on test set</strong>.</p>
+<h1 id="stages-of-product-development">Stages of product development</h1>
+<ol>
+<li>
+<p><strong>Arabic numerals</strong> recognition <code>['0', '1',..., '9']</code>(<a href="http://yann.lecun.com/exdb/mnist/">MNIST</a>).</p>
+</li>
+<li>
+<p><strong>English alphabet letters</strong> recognition <code>['a', 'b',..., 'z']</code>.</p>
+</li>
+<li>
+<p><strong>Client version of 1. or 2.</strong> for browser or mobile.</p>
+</li>
+<li>
+<p>Merge 1. and 2. for <strong>letters and numbers sequences</strong> recognition.</p>
+</li>
+<li>
+<p><strong>Client version of 4.</strong> for browser or mobile.</p>
+</li>
+<li>
+<p><strong>Handwritten English words</strong> recognition.</p>
+</li>
+<li>
+<p>Improve <strong>7. with reinforcements</strong> like a set of expected words.</p>
+</li>
+<li>
+<p><strong>Client version of 7.</strong> for browser or mobile.</p>
+</li>
+<li>
+<p>Recognition of <strong>handwritten English text</strong>.</p>
+</li>
+<li>
+<p><strong>Client version of 9.</strong> (could work along with some Cloud-based computations).</p>
+</li>
+<li>
+<p><em>Bonus</em>: Recognition of <strong>Ukrainian alphabet letters</strong>.</p>
+</li>
+</ol>
+<h1 id="objects-detection">Objects detection</h1>
+<p>Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos. Well-researched domains of object detection include face detection and pedestrian detection. Object detection has applications in many areas of computer vision, including image retrieval and video surveillance. <a href="https://en.wikipedia.org/wiki/Object_detection">Wikipedia</a></p>
+<p>Large technological companies such as Google, Amazon, IBM etc., and starups such as <a href="http://Scale.ai">Scale.ai</a> and Immage provide their high-quality cloud-based APIs.</p>
 
